@@ -4997,6 +4997,32 @@ input, select, textarea {
 }
 
 
+/* Center the resume section */
+.resume-center {
+    position: absolute; /* Allows precise centering */
+    top: 50px; /* Center vertically */
+    left: 50px; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset to truly center */
+    width: 400px; /* Set fixed width matching project section */
+    height: 300px; /* Set fixed height matching project section */
+    background: #fff; /* Match the design of the project section */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional for visual consistency */
+    border-radius: 5px; /* Optional: Rounded corners for a polished look */
+    box-sizing: border-box; /* Include padding and border in width/height */
+}
+
+/* Style the article inside */
+.resume-center article.project-card {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text alignment */
+}
+
 
 
 
